@@ -1,0 +1,12 @@
+{
+  "name": "trimcraft-site-tools",
+  "private": true,
+  "description": "Image generation for trimcraft.github.io",
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "assets": "node build-assets.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.5"
+  }
+}
